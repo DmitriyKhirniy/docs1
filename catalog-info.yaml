@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "docs1"
+  description: "docs1"
+  annotations:
+    backstage.io/techdocs-ref: url:DmitriyKhirniy/docs1
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "DmitriyKhirniy"
